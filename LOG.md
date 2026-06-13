@@ -147,7 +147,6 @@ PUBG（绝地求生）游戏辅助工具，在游戏全屏/无边框窗口上叠
 | 全局热键 | `WH_KEYBOARD_LL` 低层键盘钩子 |
 | 图形绘制 | GDI+，`SmoothingMode.None` |
 | 系统托盘 | `NotifyIcon` + `ContextMenuStrip` |
-| 启动方式 | `run_crosshair.bat` 批处理 |
 
 ## 快捷键
 
@@ -156,16 +155,15 @@ PUBG（绝地求生）游戏辅助工具，在游戏全屏/无边框窗口上叠
 | `` ` `` / `F2` | 切换标记显示/隐藏 |
 | `←` | 上一张地图 |
 | `→` | 下一张地图 |
- 
+
 ## 文件结构
 
 ```
-E:/飞牛同步/Workspace/Bitfun/
+
 ├── Crosshair.cs          # 主程序源码（~455 行）
 ├── Crosshair.exe         # 编译输出
-├── run_crosshair.bat     # 启动脚本
-├── 开发日志.md           # 本文件
-├── 坐标/                 # 坐标导出文件
+├── LOG.md                # 本文件
+├── Coordinate/           # 坐标导出文件
 │   ├── 说明.txt
 │   ├── 艾伦格.txt
 │   ├── 米拉玛.txt
